@@ -1,0 +1,19 @@
+:root{
+  --background-url: '';
+}
+.container{
+  border: 1px solid black;
+  margin: 1px;
+  padding: 2px;
+}
+.inputContainer{
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+.buttonContainer{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+label{
+  min-width:74px;
+}
